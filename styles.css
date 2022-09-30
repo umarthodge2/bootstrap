@@ -1,0 +1,45 @@
+:root
+{
+    --div-background-color:blue;
+    --text-color:black;
+    --div-padding:20px;
+    --div-margin:10px;
+}
+
+
+body
+{
+    background-color: var(--div-background-color, pink)
+    background-image: url("./pic.jpg")
+}
+.child
+{
+    background-color: var(--div-background-color);
+    color:var(--text-color);
+}
+
+.progress
+{
+    margin: 10px;
+    width: 25%;
+}
+
+.one
+{
+    --div-background-color:yellow;
+    --text-color:white;
+}
+
+.one-one
+{
+    margin: var(--div-margin);
+    padding: var(--div-padding);
+
+}
+
+.one-two
+{
+    margin: var(--div-margin);
+    padding: var(--div-padding);
+
+}
